@@ -1,5 +1,7 @@
 <?php
-class SpecialTopTenPages extends PopularPagesPage {
+use HitCounters\SpecialPopularPages;
+
+class SpecialTopTenPages extends SpecialPopularPages {
 	public function __construct( $name = 'TopTenPages' ) {
 		parent::__construct( $name );
 		$inc = $this->including();
@@ -32,5 +34,9 @@ class SpecialTopTenPages extends PopularPagesPage {
 			return parent::openList( 0 );
 		}
 		return parent::openList( $offset );
+	}
+
+	protected function getGroupName() {
+		return 'other';
 	}
 }
