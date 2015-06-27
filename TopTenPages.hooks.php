@@ -8,7 +8,7 @@ class TopTenPagesHooks {
 	/**
 	 * The callback function for converting the input text to HTML output.
 	 */
-	public static function renderTag( $text, Array $args, Parser $parser, PPFrame $frame ) {
+	public static function renderTag( $text, array $args, Parser $parser, PPFrame $frame ) {
 		if ( array_key_exists( 'offset', $args ) ) {
 			$offset = (int) $args['offset'];
 		} else {
