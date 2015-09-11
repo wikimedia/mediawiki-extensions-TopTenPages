@@ -1,5 +1,6 @@
 {
 	"name": "TopTenPages",
+	"namemsg": "toptenpages-extensionname",
 	"version": "0.4.0",
 	"author": [
 		"Timo Tijhof",

@@ -5,5 +5,6 @@
 		]
 	},
 	"toptenpages": "Top Ten pages",
+	"toptenpages-extensionname": "TopTenPages",
 	"toptenpages-desc": "Shows most viewed pages."
 }
