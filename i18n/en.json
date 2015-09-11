@@ -1,4 +1,9 @@
 {
+	"@metadata": {
+		"authors": [
+			"Krinkle"
+		]
+	},
 	"toptenpages": "Top Ten pages",
 	"toptenpages-desc": "Shows most viewed pages."
 }
