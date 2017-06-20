@@ -10,12 +10,12 @@ class TopTenPagesHooks {
 	 */
 	public static function renderTag( $text, array $args, Parser $parser, PPFrame $frame ) {
 		if ( array_key_exists( 'offset', $args ) ) {
-			$offset = (int) $args['offset'];
+			$offset = (int)$args['offset'];
 		} else {
 			$offset = 0;
 		}
-		if ( $text > 0 ){
-			$limit = (int) $text;
+		if ( $text > 0 ) {
+			$limit = (int)$text;
 		} else {
 			$limit = 10;
 		}
