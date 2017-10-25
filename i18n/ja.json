@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sujiniku"
+			"Sujiniku",
+			"Otokoume"
 		]
 	},
 	"toptenpages": "トップ10ページ",
-	"toptenpages-desc": "最多閲覧ページを表示。"
+	"toptenpages-desc": "最多閲覧ページを表示する"
 }
