@@ -10,6 +10,11 @@
 	"descriptionmsg": "toptenpages-desc",
 	"license-name": "MIT",
 	"type": "specialpage",
+	"requires": {
+		"extensions": {
+			"HitCounters": "*"
+		}
+	},
 	"MessagesDirs": {
 		"TopTenPages": [
 			"i18n"
