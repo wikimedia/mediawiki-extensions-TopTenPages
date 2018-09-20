@@ -5,11 +5,10 @@
  * @file
  * @ingroup Extensions
  */
-// @codingStandardsIgnoreFile
 
-$specialPageAliases = array();
+$specialPageAliases = [];
 
 /** English (English) */
-$specialPageAliases['en'] = array(
-	'TopTenPages' => array( 'TopTenPages' ),
-);
+$specialPageAliases['en'] = [
+	'TopTenPages' => [ 'TopTenPages' ],
+];
