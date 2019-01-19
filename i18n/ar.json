@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"ديفيد"
+			"ديفيد",
+			"Meno25"
 		]
 	},
 	"toptenpages": "أعلى عشر صفحات",
+	"toptenpages-extensionname": "أعلى عشر صفحات",
 	"toptenpages-desc": "يعرض أكثر الصفحات عرضا"
 }
