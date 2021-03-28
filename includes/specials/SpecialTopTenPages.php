@@ -16,14 +16,14 @@ class SpecialTopTenPages extends SpecialPopularPages {
 	}
 
 	/** @inheritDoc */
-	function isListed() {
+	public function isListed() {
 		return false;
 	}
 
 	/**
 	 * @param string|null $par
 	 */
-	function execute( $par ) {
+	public function execute( $par ) {
 		$inc = $this->including();
 
 		if ( $inc ) {
@@ -40,7 +40,7 @@ class SpecialTopTenPages extends SpecialPopularPages {
 	 * @param int $offset
 	 * @return string
 	 */
-	function openList( $offset ) {
+	public function openList( $offset ) {
 		global $wgTopTenPagesStartAtOne;
 		if ( $wgTopTenPagesStartAtOne ) {
 			return parent::openList( 0 );

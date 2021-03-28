@@ -32,8 +32,8 @@
 		"TopTenPages": "SpecialTopTenPages"
 	},
 	"AutoloadClasses": {
-		"SpecialTopTenPages": "SpecialTopTenPages.php",
-		"TopTenPagesHooks": "TopTenPages.hooks.php"
+		"SpecialTopTenPages": "includes/specials/SpecialTopTenPages.php",
+		"TopTenPagesHooks": "includes/TopTenPagesHooks.php"
 	},
 	"config": {
 		"TopTenPagesStartAtOne": false
