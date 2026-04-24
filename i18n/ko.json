@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Revi"
+			"Revi",
+			"Tensama0415"
 		]
 	},
+	"toptenpages": "상위 10개 문서",
 	"toptenpages-desc": "가장 많이 열람한 문서를 봅니다."
 }
