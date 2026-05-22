@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mainframe98"
+			"Mainframe98",
+			"Siebrand"
 		]
 	},
 	"toptenpages": "Top Tien pagina's",
-	"toptenpages-desc": "Toont de meest bekeken pagina's."
+	"toptenpages-desc": "De meest bekeken pagina's weergeven"
 }
